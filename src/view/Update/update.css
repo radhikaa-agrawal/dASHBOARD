@@ -1,0 +1,41 @@
+.update_page .heading {
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 2rem 0;
+}
+
+.update_page .max_width {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.update_page .max_width .home_content {
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+  width: 40rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-top: 6rem;
+}
+.sid_row label {
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+}
+.sid_row input {
+  margin-top: 0.5rem;
+  display: block;
+  width: 30rem;
+  height: 4rem;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+.sid_row button {
+  margin-top: 1rem;
+  padding: 1.2rem 4rem;
+  font-weight: bold;
+}
+.sid_row {
+  text-align: left;
+}

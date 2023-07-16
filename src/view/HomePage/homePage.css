@@ -1,0 +1,91 @@
+.navbar .max_width {
+  padding: 2rem;
+  height: 7rem;
+  background: #127383;
+  display: flex;
+}
+.navbar .logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.navbar .navBtns {
+  display: block;
+  list-style: none;
+}
+.navbar .nav{
+  display: block;
+  padding: 0 2rem;
+  font-size: 2rem;
+  font-family: "Open Sans";
+}
+
+.navbar .nav a:hover {
+border-bottom: 2px solid #0e96db;
+border-radius: 1px;
+}
+.navbar .nav a {
+  color: white;
+  text-decoration: none;
+}
+.home_page .max_width {
+  margin-top: 3rem;
+  width: 100%;
+  padding: 1rem 4rem;
+}
+
+.home_page .home_content {
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.home_content .heading {
+  padding: 2rem;
+  font-size: 2rem;
+  color: #127383;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.home_content .crud_bar {
+  display: flex;
+  background: #c0c9da;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 1.5rem;
+  justify-content: center;
+  padding: 2rem;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.home_content .crud_buttons_container {
+  margin-left: 1rem;
+  display: flex;
+  gap: 10px;
+}
+
+.crud_buttons_container .crud_button {
+  padding: 1.5rem 3rem;
+  font-size: 1.5rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  font-weight: 700;
+  background: rgb(173, 179, 200);
+  border: none;
+  text-decoration: none;
+  color: #0e96db;
+}
+
+@media (max-width: 760px) {
+  .home_content .crud_bar {
+    flex-direction: column;
+  }
+
+  .home_content .crud_buttons_container {
+    margin-top: 2rem;
+    flex-direction: column;
+  }
+}

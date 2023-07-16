@@ -1,0 +1,70 @@
+.detail_page .heading {
+  padding: 2rem 4rem;
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border: 1px solid #c0c9da;
+}
+
+.detail_page .home_content {
+  background: #e9f1ff;
+  width: 100%;
+}
+
+.home_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 2rem;
+}
+
+.home_form input {
+  display: block;
+  width: 30rem;
+  height: 4rem;
+  padding: 0.5rem;
+  background: transparent;
+  border: 1px solid #c0c9da;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.home_form label {
+  text-transform: capitalize;
+  display: block;
+  text-align: left;
+  padding: 0.5rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  font-family: "Open Sans";
+}
+
+.submission_box {
+  display: inherit;
+  gap: 1rem;
+}
+
+.submission_box .btn {
+  cursor: pointer;
+  padding: 1rem 4rem;
+  background: #1e7683;
+  color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: none;
+  border-radius: 5px;
+}
+
+
+.submission{
+    padding: 2rem 0;
+    font-size: 2rem;
+    color: #0000ff;
+}   
+
+@media (max-width: 350px) {
+  .submission_box {
+    display: inline-block;
+  }
+}
